@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
 // LAB 4 (Slide 17): Timer ID를 useRef로 관리
 export default function Lab4RefTimer() {
@@ -27,14 +27,22 @@ export default function Lab4RefTimer() {
 
   return (
     <div>
-      <p className="status">상태: {running ? 'Running' : 'Stopped'}</p>
+      <p className="status">상태: {running ? "Running" : "Stopped"}</p>
       <div className="count">{count}</div>
       <div className="controls">
-        <button onClick={start} disabled={running}>Start</button>
-        <button className="secondary" onClick={stop} disabled={!running}>Stop</button>
-        <button className="secondary" onClick={reset}>Reset</button>
+        <button onClick={start} disabled={running}>
+          Start
+        </button>
+        <button className="secondary" onClick={stop} disabled={!running}>
+          Stop
+        </button>
+        <button className="secondary" onClick={reset}>
+          Reset
+        </button>
       </div>
-      <p className="hint">Timer ID와 화면 표시용 상태의 차이를 설명해 보세요.</p>
+      <p className="hint">
+        Timer ID와 화면 표시용 상태의 차이를 설명해 보세요.
+      </p>
     </div>
   );
 }

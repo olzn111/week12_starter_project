@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 // LAB 2 (Slide 10): Timer Start / Stop / Reset
 export default function Lab2TimerControl() {
@@ -17,14 +17,26 @@ export default function Lab2TimerControl() {
 
   return (
     <div>
-      <p className="status">상태: {running ? 'Running' : 'Stopped'}</p>
+      <p className="status">상태: {running ? "Running" : "Stopped"}</p>
       <div className="count">{count}</div>
       <div className="controls">
-        <button onClick={() => setRunning(true)} disabled={running}>Start</button>
-        <button className="secondary" onClick={() => setRunning(false)} disabled={!running}>Stop</button>
-        <button className="secondary" onClick={reset}>Reset</button>
+        <button onClick={() => setRunning(true)} disabled={running}>
+          Start
+        </button>
+        <button
+          className="secondary"
+          onClick={() => setRunning(false)}
+          disabled={!running}
+        >
+          Stop
+        </button>
+        <button className="secondary" onClick={reset}>
+          Reset
+        </button>
       </div>
-      <p className="hint">Start/Stop 버튼의 State 변경과 Effect 실행의 관계를 확인하세요.</p>
+      <p className="hint">
+        Start/Stop 버튼의 State 변경과 Effect 실행의 관계를 확인하세요.
+      </p>
     </div>
   );
 }
