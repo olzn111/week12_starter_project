@@ -56,9 +56,9 @@ body {
   color: #637086;
 }
 .tab.active {
-  background: #e8efff;
+  background: #a2defe;
   border-color: #587ee3;
-  color: #214bb1;
+  color: #000000;
 }
 .lab-panel {
   min-height: 345px;
@@ -79,8 +79,8 @@ body {
   margin: 0;
 }
 .pill {
-  background: #eaf0ff;
-  color: #2850ac;
+  background: #000000;
+  color: #f7b0ff;
   border-radius: 99px;
   padding: 6px 10px;
   font-size: 12px;
@@ -103,8 +103,8 @@ body {
   border: 0;
   border-radius: 9px;
   padding: 11px 19px;
-  background: #285bc7;
-  color: white;
+  background: #ea67d2;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-weight: 650;
   cursor: pointer;

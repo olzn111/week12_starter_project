@@ -27,3 +27,7 @@ npm run dev
 5. LAB 2와 LAB 4에서 Timer를 관리하는 방식의 차이는?
 
 
+Customizing
+- src/App.jsx: 상단 메인 타이틀 및 설명 문구 변경
+- src/App.css: 탭(.tab.active),(.pill), 버튼(.controls button) 색상 변경
+- 
