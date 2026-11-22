@@ -25,3 +25,5 @@ npm run dev
 3. Cleanup은 언제 실행되는가? 개발 환경 StrictMode 영향은?
 4. `useState`와 `useRef`의 값 변경 시 렌더링 차이는?
 5. LAB 2와 LAB 4에서 Timer를 관리하는 방식의 차이는?
+
+

@@ -12,10 +12,7 @@ export default function Lab1EffectTimer() {
 
     return () => {
       clearInterval(id);
-      [];
     };
-
-    return <h2>Count: {count}</h2>;
 
     //TODO 1: 1초마다 setCount(prev => prev + 1)을 실행할 setInterval 작성
     //TODO 2: 만든 타이머 ID를 보관
